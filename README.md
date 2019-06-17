@@ -5,25 +5,25 @@
 
 ### Install
 
-Run  `npm install @valdio/react-native-scrollable-tabview --save`
+Run  `npm install @summerkiflain/react-native-scrollable-tabview --save`
     
-OR  `yarn add @valdio/react-native-scrollable-tabview`
+OR  `yarn add @summerkiflain/react-native-scrollable-tabview`
 
 ### Import
 `import {
  ScrollableTabView,
  DefaultTabBar,
  ScrollableTabBar,
-} from '@valdio/react-native-scrollable-tabview'`
+} from '@summerkiflain/react-native-scrollable-tabview'`
 
 ## Demo
-|![Screenshot](https://github.com/valdio/react-native-scrollable-tabview/blob/master/demo_images/demo-fb.gif)|![Screenshot](https://github.com/valdio/react-native-scrollable-tabview/blob/master/demo_images/scrollable_example.mov.gif)|![Screenshot](https://github.com/valdio/react-native-scrollable-tabview/blob/master/demo_images/collapsible_demo.gif)|
+|![Screenshot](https://github.com/summerkiflain/react-native-scrollable-tabview/blob/master/demo_images/demo-fb.gif)|![Screenshot](https://github.com/summerkiflain/react-native-scrollable-tabview/blob/master/demo_images/scrollable_example.mov.gif)|![Screenshot](https://github.com/summerkiflain/react-native-scrollable-tabview/blob/master/demo_images/collapsible_demo.gif)|
 | ------------- | ------------- | ------------- |
 
 ## Basic usage
 
 ```javascript
-import {ScrollableTabView} from '@valdio/react-native-scrollable-tabview'
+import {ScrollableTabView} from '@summerkiflain/react-native-scrollable-tabview'
 
 export default class App extends Component {
   render() {
@@ -44,7 +44,7 @@ Suppose we had a custom tab bar called `CustomTabBar`, we would inject
 it into our `ScrollableTabView` like this:
 
 ```javascript
-import {ScrollableTabView} from '@valdio/react-native-scrollable-tabview'
+import {ScrollableTabView} from '@summerkiflain/react-native-scrollable-tabview'
 import CustomTabBar from './CustomTabBar';
 
 export default class App extends Component {
@@ -66,7 +66,7 @@ To start you can just copy [DefaultTabBar](https://github.com/skv-headless/react
 You can change tabs programmatically. Just use `goToPage` method.
 
 ```javascript
-import {ScrollableTabView} from '@valdio/react-native-scrollable-tabview'
+import {ScrollableTabView} from '@summerkiflain/react-native-scrollable-tabview'
 
 export default class App extends Component {
   render() {
@@ -87,7 +87,7 @@ export default class App extends Component {
 
 ## Examples
 
-[Example APP](https://github.com/valdio/react-native-scrollable-tabview/tree/master/examples/TestApp).
+[Example APP](https://github.com/summerkiflain/react-native-scrollable-tabview/tree/master/examples/TestApp).
 
 
 ## Props
@@ -126,7 +126,7 @@ export default class App extends Component {
 
 ```javascript
 import React, {Component} from 'react'
-import {ScrollableTabView} from '@valdio/react-native-scrollable-tabview'
+import {ScrollableTabView} from '@summerkiflain/react-native-scrollable-tabview'
 
 export default class Test extends Component {
   
