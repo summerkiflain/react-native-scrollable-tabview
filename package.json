@@ -1,6 +1,6 @@
 {
   "name": "@summerkiflain/react-native-scrollable-tabview",
-  "version": "0.10.10",
+  "version": "0.10.11",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
